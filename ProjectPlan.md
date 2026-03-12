@@ -14,8 +14,8 @@ Responsibilities:
 
 1. Get historic data on Alphabet (Google) and NASDAQ-100 (Week 4)
 2. Clean and organize the datasets (Weeks 11 & 12)
-3. Compute the standard deviation and volatility of each stock (Week 10)
-4. Compare the standard deviation and volatility of each stock (Weeks 7 & 8)
+3. Compute the standard deviation and volatility of each stock (Week 13)
+4. Compare the standard deviation and volatility of each stock
 5. Create Visualizations to interpret the results (Week 13)
 6. Write the final report and review it (Weeks 14 & 15)
 
@@ -24,9 +24,9 @@ Member 2: Naina Shrivastava
 Responsibilities: 
 
 1. Get historic data on Apple and Microsoft (Week 4)
-2. Calculate the percent of daily returns for each stock (Week 10)
-3. Perform the benchmark analysis for each stock (Weeks 7 & 8)
-4. Calculate the risk-to-reward ratio for each stock (Week 10)
+2. Calculate the percent of daily returns for each stock (Week 13)
+3. Perform the benchmark analysis for each stock
+4. Calculate the risk-to-reward ratio for each stock (Week 13)
 5. Create Visualizations to interpret the results (Week 13)
 6. Write the final report and review it (Weeks 14 & 15)
 
