@@ -73,6 +73,6 @@ To conclude, the feedback helped us simplify the scope of the project while stre
  
 For reaching this milestone, I sourced the Alphabet (Google) historical stock price data. Then cleaned and organized the dataset by looking for any missing values as well as dropping the columns of volume, open, high, and low, as it is not required for our project and analysis. Moreover, I also integrated both datasets using the date column, which also required formatting the date column as both datasets had a different format. Then, I calculated the percent of daily return for the Alphabet (Google) stock price in the last five years, as well as the average of the percent of daily return. Finally, I worked on updating the project timeline as per the feedback we received in class. 
 
-*Naina Shrivaastava -* 
+*Naina Shrivastava -* 
 
 
