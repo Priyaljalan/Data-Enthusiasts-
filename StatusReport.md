@@ -37,4 +37,29 @@ Here are our datasets:
 
 After the feedback on our project plan, we have pushed back our timeline a bit. 
 
+**Changes to the Project Plan:**
+
+Based on the feedback received in Milestone 2, we made a significant change to our project.  Initially, the project focused on analyzing and comparing stock performance for three companies: Alphabet Inc., Apple Inc., and Microsoft Corporation with the NASDAQ-100. However, with the help of the feedback, we realized that there was no integration of different data elements or fields taking place in the project. All the datasets extracted by us before had the same set of variables. Therefore, we have refined the scope of our project.  
+
+In our updated project plan, we will be analyzing the stock performance of Apple Inc. in relation to macroeconomic data, specifically the 10 Year Treasury Yield obtained from the FRED database. This will help us understand how a major stock performs in relation to changes in interest rates and a broader financial environment. The 10 Year Treasury Yield is used as a benchmark for long term interest rates and market expectations. The analysis will extend beyond returns and volatility and include a relationship between stock performance and interest rate movements. 
+
+As part of the updated project plan, we have expanded our analytical framework. In addition to calculating daily return, cumulative return, and volatility, we will now also be focusing on: 
+
+Analyzing the correlation between Alphabet Inc. Stock returns and US 10 Year Treasury Yield 
+
+Examining how changes in interest rates impact Apple’s stock performance 
+
+Calculating the risk premium to assess whether the return justify the risk 
+
+Slight changes were introduced to the progress of our project with a change in the scope of the project. Our progress was redirected towards: 
+
+Collecting datasets for Alphabet Inc.  
+
+Collecting datasets for US 10 Year Treasury Yield  
+
+Cleaning both datasets by standardizing date formats and checking for missing values  
+
+Planning the integration process, particularly focusing on aligning time frequencies between datasets 
+
+To conclude, the feedback helped us simplify the scope of the project while strengthening the analytical component. Integrating stock performance with macroeconomic indicators will help us provide deeper insights into the relationship between stock performance, interest rates, and risk-adjusted performance. 
 
