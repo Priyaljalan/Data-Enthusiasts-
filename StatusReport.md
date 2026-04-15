@@ -65,6 +65,17 @@ To conclude, the feedback helped us simplify the scope of the project while stre
 
 **Challenges:**
 
+**Challenge 1:** One of the main challenges we faced early in the project was finding meaningful data which helped us integrate data with different elements and fields. After our initial decision of using Alphabet Inc., Apple Inc., and Microsoft Corporation along with the NASDAQ-100, we realized that all our datasets contained the same variables which limited the opportunity for cross variable integration.  
+
+**Resolution:** With the help of feedback, we revised the scope of the project and introduced a macroeconomic dataset, the US 10 Year Treasury Yield. This allowed us to integrate stock data with interest rates and improve the analytical scope of the project.  
+
+**Challenge 2:** Another challenge we faced was ensuring proper data cleaning and consistency across datasets. Both datasets were extracted on a daily basis for the date variable. While the frequency issue was avoided with consistent data extraction, we still needed to ensure consistent date formatting, no missing values, and aligned trading days for accurate merging.  
+
+**Resolution:** We standardized the date format for Alphabet Inc. dataset and performed initial dataset analysis on both to check for missing values. We found that the US 10 Year Treasury Yield dataset contained some missing values. We applied forward fill to carry forward the most recent available value to fill in the missing values. This helped us ensure continuity in the time series while preserving as much data as possible for the analysis.  
+
+**Challenge 3:** Another challenge was redefining the analytical approach to the project. Moving to stock macroeconomic analysis required restructuring metrics and objectives.  
+
+**Resolution:** For this, we updated our focus to include daily returns, cumulative returns, volatility for Alphabet Inc., correlation between Alphabet returns and Treasury yields, risk premium, and risk-to-reward ratio analysis.  
 
 
 **Team Member contributions:**
