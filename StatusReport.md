@@ -8,6 +8,6 @@ Both datasets are publicly available, and the  Alphabet (Google) historical pric
 
 Here are our datasets: 
 
-1) Alphabet (Google) - https://github.com/Priyaljalan/Data-Enthusiasts-/blob/main/HistoricalData_GOGGLE.csv
+1) Alphabet (Google) - 
 2) Treasury rates - 
 
