@@ -21,9 +21,9 @@ Specific Task Updates:
 
 3. Integrate both datasets - Completed
 
-4. Compute the standard deviation and volatility of the stock - Completed
+4. Calculate the percent of daily returns for the stock - Completed
 
-5. Calculate the percent of daily returns for the stock - Completed
+5. Compute the standard deviation and volatility of the stock - Completed
 
 6. Perform the benchmark analysis for the stock - Will be completed by Week 14
 
@@ -35,7 +35,9 @@ Specific Task Updates:
 
 10. Write the final report and review it - Will be completed by Week 15
 
-Above are all the tasks that we need to do after the changes have been made to the project plan. 
+Above are all the tasks that we need to do after the changes have been made to the project plan. Here is a link to the notebook with all the completed tasks:
+
+https://github.com/Priyaljalan/Data-Enthusiasts-/blob/main/stock_vs_treasury_analysis.ipynb
 
 **Changes to the Project Plan:**
 
@@ -65,13 +67,13 @@ To conclude, the feedback helped us simplify the scope of the project while stre
 
 **Challenges:**
 
-**Challenge 1:** One of the main challenges we faced early in the project was finding meaningful data which helped us integrate data with different elements and fields. After our initial decision of using Alphabet Inc., Apple Inc., and Microsoft Corporation along with the NASDAQ-100, we realized that all our datasets contained the same variables which limited the opportunity for cross variable integration.  
+**Challenge 1:** One of the main challenges we faced early in the project was finding meaningful data, which helped us integrate data with different elements and fields. After our initial decision of using Alphabet Inc., Apple Inc., and Microsoft Corporation along with the NASDAQ-100, we realized that all our datasets contained the same variables, which limited the opportunity for cross-variable integration.  
 
 **Resolution:** With the help of feedback, we revised the scope of the project and introduced a macroeconomic dataset, the US 10 Year Treasury Yield. This allowed us to integrate stock data with interest rates and improve the analytical scope of the project.  
 
 **Challenge 2:** Another challenge we faced was ensuring proper data cleaning and consistency across datasets. Both datasets were extracted on a daily basis for the date variable. While the frequency issue was avoided with consistent data extraction, we still needed to ensure consistent date formatting, no missing values, and aligned trading days for accurate merging.  
 
-**Resolution:** The date columns for both the datasets followed different formats and this could have caused issues with dataset integration. In order to solve this, we standardized the date format for Alphabet Inc. dataset. This helped us ensure that both datasets followed the same format for date column. We then performed initial dataset analysis on both to check for missing values. We found that the US 10 Year Treasury Yield dataset contained some missing values. We applied forward fill to carry forward the most recent available value to fill in the missing values. This helped us ensure continuity in the date series while preserving as much data as possible for the analysis.  
+**Resolution:** The date columns for both datasets followed different formats, and this could have caused issues with dataset integration. In order to solve this, we standardized the date format for the Alphabet Inc. dataset. This helped us ensure that both datasets followed the same format for the date column. We then performed initial dataset analysis on both to check for missing values. We found that the US 10 Year Treasury Yield dataset contained some missing values. We applied forward fill to carry forward the most recent available value to fill in the missing values. This helped us ensure continuity in the date series while preserving as much data as possible for the analysis.  
 
 **Challenge 3:** Another challenge was redefining the analytical approach to the project. Moving to stock macroeconomic analysis required restructuring metrics and objectives.  
 
@@ -82,7 +84,7 @@ To conclude, the feedback helped us simplify the scope of the project while stre
 
 *Priyal Jalan -* 
  
-For reaching this milestone, I sourced the Alphabet (Google) historical stock price data from NASDAQ database. Then cleaned and organized the dataset by looking for any missing values as well as dropping the columns of volume, open, high, and low, as it is not required for our project and analysis. Moreover, I also integrated both datasets using the date column, which also required formatting the date column as both datasets had a different format. Then, I calculated the percent of daily return for the Alphabet (Google) stock price in the last five years, as well as the average of the percent of daily return. Finally, I worked on updating the project timeline as per the feedback we received in class. 
+For reaching this milestone, I sourced the Alphabet (Google) historical stock price data from the NASDAQ database. Then cleaned and organized the dataset by looking for any missing values as well as dropping the columns of volume, open, high, and low, as it is not required for our project and analysis. Moreover, I also integrated both datasets using the date column, which also required formatting the date column as both datasets had a different format. Then, I calculated the percent of daily return for the Alphabet (Google) stock price in the last five years, as well as the average of the percent of daily return. Finally, I worked on updating the project timeline as per the feedback we received in class. 
 
 *Naina Shrivastava -* 
 
