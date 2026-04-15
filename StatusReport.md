@@ -5,3 +5,8 @@ As discussed in class about the integration of different data elements/fields in
 We have sourced our dataset of Alphabet (Google) from the Nasdaq website and the treasury rates from the FRED website, and both of the datasets are in CSV format. We have also added these datasets to our GitHub repository. 
 
 Both datasets are publicly available, and the  Alphabet (Google) historical price dataset contains the date, close/last price,	volume, open, high, and low columns, and the treasury rates dataset contains just the date and the treasury yield column. 
+
+Here are our datasets: 
+
+1) Alphabet (Google) - https://github.com/Priyaljalan/Data-Enthusiasts-/blob/main/HistoricalData_GOGGLE.csv
+2) Treasury rates - 
