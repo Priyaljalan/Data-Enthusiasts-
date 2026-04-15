@@ -45,21 +45,21 @@ In our updated project plan, we will be analyzing the stock performance of Apple
 
 As part of the updated project plan, we have expanded our analytical framework. In addition to calculating daily return, cumulative return, and volatility, we will now also be focusing on: 
 
-Analyzing the correlation between Alphabet Inc. Stock returns and US 10 Year Treasury Yield 
+1. Analyzing the correlation between Alphabet Inc. Stock returns and US 10 Year Treasury Yield 
 
-Examining how changes in interest rates impact Apple’s stock performance 
+2. Examining how changes in interest rates impact Apple’s stock performance 
 
-Calculating the risk premium to assess whether the return justify the risk 
+3. Calculating the risk premium to assess whether the return justify the risk 
 
 Slight changes were introduced to the progress of our project with a change in the scope of the project. Our progress was redirected towards: 
 
-Collecting datasets for Alphabet Inc.  
+1. Collecting datasets for Alphabet Inc.  
 
-Collecting datasets for US 10 Year Treasury Yield  
+2. Collecting datasets for US 10 Year Treasury Yield  
 
-Cleaning both datasets by standardizing date formats and checking for missing values  
+3. Cleaning both datasets by standardizing date formats and checking for missing values  
 
-Planning the integration process, particularly focusing on aligning time frequencies between datasets 
+4. Planning the integration process, particularly focusing on aligning time frequencies between datasets 
 
 To conclude, the feedback helped us simplify the scope of the project while strengthening the analytical component. Integrating stock performance with macroeconomic indicators will help us provide deeper insights into the relationship between stock performance, interest rates, and risk-adjusted performance. 
 
