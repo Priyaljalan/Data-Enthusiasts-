@@ -78,7 +78,7 @@ To conclude, the feedback helped us simplify the scope of the project while stre
 **Resolution:** For this, we updated our focus to include daily returns, cumulative returns, volatility for Alphabet Inc., correlation between Alphabet returns and Treasury yields, risk premium, and risk-to-reward ratio analysis.  
 
 
-**Team Member contributions:**
+**Team Member Contributions:**
 
 *Priyal Jalan -* 
  
