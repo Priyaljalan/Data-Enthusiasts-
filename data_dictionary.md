@@ -17,8 +17,8 @@ Derived Variables and Analytical Metrics
 Daily Return — Daily percentage change in Alphabet Inc. closing stock price used to measure short-term stock performance 
 Cumulative Return — Total accumulated return over the selected time period used to evaluate overall stock performance
 Volatility — Annualized standard deviation of Alphabet Inc. stock returns used to measure investment risk and return fluctuation
-Correlation Between Stock Returns and Treasury Yields — Statistical measure used to evaluate the relationship between daily stock returns and changes in the United States 10-Year Treasury Yield
+Correlation Between Stock Returns and Treasury Yields — A statistical measure used to evaluate the relationship between daily stock returns and changes in the United States 10-Year Treasury Yield
 Risk Premium — Difference between Alphabet Inc.’s annualized return and the average US 10-Year Treasury Yield benchmark
-Risk-to-Reward Ratio — Metric used to determine whether the level of stock returns justified the amount of investment risk and volatility
+Risk-to-Reward Ratio — A metric used to determine whether the level of stock returns justified the amount of investment risk and volatility
 Scatter Plot Analysis — Visualization used to examine the relationship between Treasury Yield changes and Alphabet Inc. stock returnsTreasury 
 Treasury Yield Trend Analysis — Trend visualization used to analyze periods of changing interest rates and their relationship with technology stock performance
