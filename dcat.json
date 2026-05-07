@@ -1,0 +1,27 @@
+{
+    "@type": "dcat:Dataset",
+    "accessLevel": "public",
+    "contactPoint":
+    {
+        "fn": "Priyal Jalan and Naina Shrivastava",
+        "hasEmail": "mailto:priyalj2@illinois.edu or nainas3@illinois.edu"
+    },
+    "description": "Relationship between Alphabet Inc.'s stock returns and the United States 10-Year Treasury Yield from March 12, 2021, to March 12, 2026. The project integrates financial market data with macroeconomic data to examine stock performance, volatility, risk premium, and the impact of interest rate movements on technology stocks.",
+    "keyword":
+    [
+        "Alphabet Inc.",
+        "Google Stock",
+        "Treasury Yield",
+        "Macroeconomic Data",
+        "Stock Returns",
+        "Volatility",
+        "Benchmark Analysis",
+        "Risk Premium",
+        "Financial Analysis",
+        "Data Integration",
+        "Technology Stocks"
+    ],
+    "modified": "2026-05-06",
+    "title": "Analyzing the Relationship Between Alphabet Inc.'s Stock Returns and the US 10-Year Treasury Yield from March 12, 2021, to March 12, 2026",
+    "license": "MIT License"
+}
