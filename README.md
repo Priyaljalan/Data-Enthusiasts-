@@ -1,6 +1,6 @@
 # Data-Enthusiasts-
 
-Title: Title of your project
+**Title: Analyzing the Relationship Between Alphabet Inc.'s Stock Returns and the US 10-Year Treasury Yield from March 12, 2021, to March 12, 2026** 
 
 **Contributors:**
 
@@ -22,7 +22,7 @@ Research or Business Question(s):
 
 1. What is the correlation between Alphabet Inc. Stock returns and the US 10 Year Treasury Yield?
 
-2. How do changes in interest rates impact Alphabet Inc. stock performance?
+2. How do changes in interest rates impact Alphabet Inc.'s stock performance?
 
 3. What is the risk premium, and does the return justify the risk?
 
