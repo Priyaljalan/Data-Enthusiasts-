@@ -8,6 +8,7 @@ Title: Title of your project
 2. Naina Shrivastava
 
 **Summary:** [500-600 words] Description of your project, motivation, research question(s), and any findings.
+This project analyzes the relationship between the stock performance of Alphabet Inc. (Google) and macroeconomic conditions represented by the United States 10-Year Treasury Yield. The main objective is to analyze how fluctuations in long-term interest rates influence the returns, volatility, and risk-adjusted performance of a major technology company over time. The analysis uses historical daily stock price data for Alphabet Inc. along with daily Treasury Yield data from March 12, 2021, to March 12, 2026. 
 
 Research or Business Question(s):
 
