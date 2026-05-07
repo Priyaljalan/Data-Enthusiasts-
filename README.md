@@ -4,8 +4,30 @@
 
 **Contributors:**
 
-1. Priyal Jalan
-2. Naina Shrivastava
+Member 1: Priyal Jalan
+
+Responsibilities:
+
+1. Get historic data on Alphabet (Google) 
+2. Clean and organize the datasets (Weeks 11 & 12)
+3. Integrate both datasets (Week 12)
+4. Compute the standard deviation and volatility of the stock (Week 13)
+5. Calculate Risk Premium and correlation analysis (Week 14)
+6. Analyze the impact of interest-rate changes on Apple Inc. stock performance (Week 14)
+7. Create visualizations to interpret the results (Week 14)
+8. Write the final report and review it (Weeks 14 & 15)
+
+Member 2: Naina Shrivastava
+
+Responsibilities:
+
+1. Get the historic data on the US 10 Year Treasury Yield (Week 4)
+2. Clean and organize the datasets (Weeks 11 & 12)
+3. Calculate the percent of daily returns for the stock (Week 13)
+4. Perform the benchmark analysis for the stock (Week 14)
+5. Calculate the risk-to-reward ratio for the stock (Week 14)
+7. Create visualizations to interpret the results (Week 14)
+8. Write the final report and review it (Weeks 14 & 15)
 
 **Summary:** 
 
