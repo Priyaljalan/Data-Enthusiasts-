@@ -8,13 +8,21 @@ Title: Title of your project
 2. Naina Shrivastava
 
 **Summary:** [500-600 words] Description of your project, motivation, research question(s), and any findings.
-This project analyzes the relationship between the stock performance of Alphabet Inc. (Google) and macroeconomic conditions represented by the United States 10-Year Treasury Yield. The main objective is to analyze how fluctuations in long-term interest rates influence the returns, volatility, and risk-adjusted performance of a major technology company over time. The analysis uses historical daily stock price data for Alphabet Inc. along with daily Treasury Yield data from March 12, 2021, to March 12, 2026. 
+This project analyzes the relationship between the stock performance of Alphabet Inc. (Google) and macroeconomic conditions represented by the United States 10-Year Treasury Yield. As finance students, the motivation behind this study was to explore the correlation between interest rates and equity market behavior, particularly within the technology sector. The main objective is to analyze how fluctuations in long-term interest rates influence the returns, volatility, and risk-adjusted performance of a major technology company over time. The analysis uses historical daily stock price data for Alphabet Inc. along with daily Treasury Yield data from March 12, 2021, to March 12, 2026.  
+
+Initially, the project focused on analyzing and comparing stock performance for three companies: Alphabet Inc., Apple Inc., and Microsoft Corporation with the NASDAQ-100. Based on the feedback received in Milestone 2 and after reviewing the project scope, we made a significant change to our project. We realized that there was no integration of different data elements or fields taking place in the project. As a result, we decided to analyze the stock performance of Apple Inc. in relation to macroeconomic data, specifically the 10 Year Treasury Yield obtained from the FRED database. This allowed the project to integrate financial market data with economic indicators and develop a stronger analytical framework. 
+
+The project uses two publicly available datasets. The first dataset contains historical stock price data for Alphabet Inc. sourced from the Nasdaq website. The second dataset contains historical US 10-Year Treasury Yield data sourced from the FRED database. Both datasets are stored in CSV format and integrated using the 'date' column. The analysis focuses on identifying how stock returns behave relative to fluctuations in long-term interest rates and whether changes in Treasury yields impact the volatility and risk profile of Alphabet Inc. Throughout the analysis, several financial metrics were computed, including daily returns, cumulative returns, standard deviation, volatility, correlation between stock returns and Treasury yields, risk premium, and risk-to-reward ratio. Visualizations were also generated to better interpret stock price trends, return fluctuations, and the relationship between stock performance and Treasury yield movements over time.
+
+The project additionally emphasizes data quality, reproducibility, and transparency. Cleaning operations such as standardizing date formats, handling missing values using forward fill, removing unnecessary columns, and aligning datasets by trading dates were performed to ensure accurate integration and analysis.The project repository contains all datasets, analysis scripts, visualizations, and supporting documentation required to reproduce the results.
+
+The findings suggest that macroeconomic indicators such as Treasury yields can provide useful context when analyzing stock market performance.Variations in interest rates can influence investor expectations, discount rates, and overall market sentiment, all of which may impact technology companies such as Alphabet Inc..Integrating financial and macroeconomic datasets demonstrates how data integration can improve financial analysis and provide broader insights into market behavior and risk-adjusted performance.
 
 Research or Business Question(s):
 
 1. What is the correlation between Alphabet Inc. Stock returns and the US 10 Year Treasury Yield?
 
-2. How do changes in interest rates impact Apple’s stock performance?
+2. How do changes in interest rates impact Alphabet Inc. stock performance?
 
 3. What is the risk premium, and does the return justify the risk?
 
