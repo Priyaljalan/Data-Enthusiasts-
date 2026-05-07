@@ -7,7 +7,7 @@ Title: Title of your project
 1. Priyal Jalan
 2. Naina Shrivastava
 
-**Summary:** [500-600 words] Description of your project, motivation, research question(s), and any findings.
+**Summary:** 
 This project analyzes the relationship between the stock performance of Alphabet Inc. (Google) and macroeconomic conditions represented by the United States 10-Year Treasury Yield. As finance students, the motivation behind this study was to explore the correlation between interest rates and equity market behavior, particularly within the technology sector. The main objective is to analyze how fluctuations in long-term interest rates influence the returns, volatility, and risk-adjusted performance of a major technology company over time. The analysis uses historical daily stock price data for Alphabet Inc. along with daily Treasury Yield data from March 12, 2021, to March 12, 2026.  
 
 Initially, the project focused on analyzing and comparing stock performance for three companies: Alphabet Inc., Apple Inc., and Microsoft Corporation with the NASDAQ-100. Based on the feedback received in Milestone 2 and after reviewing the project scope, we made a significant change to our project. We realized that there was no integration of different data elements or fields taking place in the project. As a result, we decided to analyze the stock performance of Apple Inc. in relation to macroeconomic data, specifically the 10 Year Treasury Yield obtained from the FRED database. This allowed the project to integrate financial market data with economic indicators and develop a stronger analytical framework. 
@@ -33,6 +33,13 @@ Alphabet (Google) - https://github.com/Priyaljalan/Data-Enthusiasts-/blob/main/H
 US 10 Year Treasury Yield - https://github.com/Priyaljalan/Data-Enthusiasts-/blob/main/HistoricalData_10YrTreasury.csv
 
 **Data profile:** [max 2000 words] For each dataset used, describe its structure, content, and characteristics. Specify the location of the dataset files in your project repository. Discuss any ethical or legal constraints associated with the data, and explain how the datasets relate to your questions
+The project uses two publicly available financial datasets to analyze the relationship between Alphabet Inc.’s stock performance and the United States 10-Year Treasury Yield. The datasets were particularly selected to combine financial market data with macroeconomic indicators in order to better understand how fluctuations in long-term interest rates may influence stock returns, volatility, and risk-adjusted performance. Both datasets were downloaded in CSV format and stored within the project repository to ensure transparency and reproducibility and contain daily observations spanning from March 12, 2021, to March 12, 2026.
+
+Although both Nasdaq and the FRED database continuously update their information on a daily basis, the datasets used in this project were intentionally limited to observations available through March 12, 2026. This date was selected because it aligned with the beginning of the project analysis and data collection process.Restricting the datasets to a fixed timeframe helped maintain consistency throughout the study and ensured that all calculations, visualizations, and findings were based on a reproducible dataset.
+
+
+
+
 
 **Data quality:** [500-1000 words] Summary of the quality assessment.
 
