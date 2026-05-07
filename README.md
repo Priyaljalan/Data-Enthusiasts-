@@ -45,6 +45,9 @@ The repository contains  datasets, analysis notebook, visualizations, scripts, a
 
 **Data cleaning:** [max 1000 words] Summarize the data cleaning operations you performed and explain how each operation addressed specific data quality issues in your datasets.
 
+There were a few data cleaning operations performed to improve the quality of the data and ensure accurate integration.
+
+
 **Findings:** [~500 words] Description of any findings including numeric results and/or visualizations.
 
 **Future work:** [~500-1000 words] Brief discussion of any lessons learned and potential future work.
