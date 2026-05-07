@@ -41,6 +41,62 @@ Although both Nasdaq and the FRED database continuously update their information
 
 The repository contains  datasets, analysis notebook, visualizations, scripts, and supporting documentation used throughout the project. Clear and consistent naming conventions were used to improve organization and readability. The repository also contains supporting files such as requirements.txt file which includes softwares used, a data dictionary describing the variables used in the project, and a metadata file in DCAT format.
 
+# Dataset 1: Alphabet Inc. Historical Stock Price Data
+The first dataset used in this project contains historical stock price data for Alphabet Inc. (Google). The dataset was obtained from the Nasdaq Historical Data website and downloaded in CSV format. It contains a daily time series data and includes the company's stock market performance during the selected period for analysis. 
+The dataset is stored in the project repository as: HistoricalData_GOOGLE.csv
+
+The dataset contains the following variables:
+  1. Date
+  2. Close price
+  3. Open price
+  4. Volume
+  5. High
+  6. Low
+The "Date" column contains the trading day associated with each observation. The “Close Price” column represents the final trading price of Alphabet Inc. for the respective day. These two valriables served as the primary variables and are used for return calculations and volatility analysis throughout the project. The remaining variables provide additional information in relation to the daily trading activity. The “Open price” column represents the stock market opening price for the company for the respective date. The “Volume” column indicates the number of shares traded during the trading session. “High” and “Low” columns represent the maximum and minimum trading prices observed during the day.
+
+The dataset contains daily numerical observations that are appropriate for financial analysis, statistical modeling, and visualization. Since the project mainly focused on understanding stock returns and their relationship with Treasury yields, the “Close Price” column became the analytical variable used for the analysis. 
+
+The dataset was used to calculate several financial metrics such as:
+  1. Daily percentage returns
+  2. Cumulative returns
+  3. Standard deviation
+  4. Volatility
+  5. Risk premium
+  6. Risk-to-reward ratios
+These metrics helped understand the company's stock behaviour over time and examine how the stock performed when compared to macroeconomic conditions as represented by the Treasury Yields. During preprocessing and cleaning, variables such as Volume, Open, High, and Low were removed from the dataset because they were not directly required for the final project scope. The project primarily focused on stock return behavior rather than detailed intraday trading activity. This simplification of the dataset helped improve analytical clarity and reduced unnecessary potential holdbacks within the workflow.
+
+The Alphabet Inc. dataset represents structured financial market data with a streamlined structure. As the dataset was sourced from Nasdaq  which is a widely recognized and used financial market data provider, the dataset is considered reliable and appropriate for academic and analytical purposes, hence is appropriate for the project.
+
+# Dataset 2: US 10-Year Treasury Yield Data
+The second dataset used in this project contains historical United States 10-Year Treasury Yield data. The dataset was obtained from the Federal Reserve Economic Data (FRED) website and downloaded in CSV format. It contains daily observations of the US 10-Year Treasury Yield over the same time period as used for the Alphabet Inc. dataset. 
+The dataset is stored in the project repository as: HistoricalData_10YrTreasury.csv
+
+The dataset contains the following variables:
+  1. Date
+  2. Treasury Yield
+
+The “Date” refers to the observation date associated with each Treasury Yield value. he “Treasury Yield” column represents the interest rate associated with the United States 10-Year Treasury security for that particular date. Since the dataset consists of only these two important variable, there was no requirement to drop any of them for smoother workflow. The US 10-Year Treasury Yield is commonly used as a benchmark indicator in financial markets because it reflects long-term interest rate expectations, economic outlook, and investor sentiment. Treasury yields can influence discount rates, borrowing costs, and investment decisions which makes them particularly relevant  when analyzing the performance of growth oriented technology companies such as Alphabet Inc.. 
+
+The Treasury Yield dataset was integrated with the Alphabet Inc. stock dataset to analyze whether changes in long-term interest rates correlate with the changes in stock returns, volatility, and overall performance. Introducing a macroeconomic dataset to the project expanded the analytical scope by introducing variables with different economic interpretations and characteristics. The Treasury Yield dataset contains numerical time series observations and is considered reliable because it is sourced from the FRED database which is widely recognized and trusted for macroeconomic and financial information. 
+
+# Data Collection and Acquisition:
+Both datasets used in this project were obtained from publicly accessible online databases. The Alphabet Inc. stock price data was downloaded from the Nasdaq website and  the Treasury Yield dataset was downloaded from the FRED database. The datasets were stored in CSV format to simplify loading, preprocessing, and analysis using Python and Pandas. Python notebook (VS Code) cells and scripts were used to  import datasets into Pandas DataFrames with the pandas.read_csv() function.
+
+The datasets were verified after downloading to ensure successful loading into Pandas DataFrames and maintaining consistency in formatting and structure. Basic data integrity checks were performed by verifying successful file parsing, validating column formatting, ensuring consistency across date fields, and confirming that the datasets loaded correctly without corruption or formatting issues. The datasets are publicly accessible and are small in size and the project repository directly includes the input CSV files which are required to reproduce the analysis. This analysis relies on publicly accessible financial and macroeconomic observations. The datasets were used solely for academic purposes and were not modified in any way that could alter the original interpretation or meaning of the data. Proper attribution for both Nasdaq and FRED is included within the References section of the report.
+
+The datasets were selected because they provide perspective into the financial markets. A key component of the project involved integrating financial market data with macroeconomic data. The two datasets were combined using the “Date” column after standardizing date formats across both datasets. The combined dataset enabled analysis of the relationship between technology stock performance and macroeconomic indicators. Combining these datasets strengthened the project’s analytical framework and improved the ability to generate meaningful financial insights from the analysis.
+
+# Storage and Organization:
+The project repository was organized to improve transparency, usability, and reproducibility. Easily understandable and self explanatory file names are used in the repository to allow users to easily understand the purpose of each file and the project workflow. 
+The repository includes:
+1. Datasets
+2. Jupyter notebooks
+3. Visualization outputs
+4. Documentation files
+5. Metadata files
+6. Software documentation
+
+
 **Data quality:** [500-1000 words] Summary of the quality assessment.
 
 **Data cleaning:** [max 1000 words] Summarize the data cleaning operations you performed and explain how each operation addressed specific data quality issues in your datasets.
