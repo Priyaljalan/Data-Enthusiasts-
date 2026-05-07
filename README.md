@@ -41,7 +41,7 @@ Although both Nasdaq and the FRED database continuously update their information
 
 The repository contains  datasets, analysis of the notebook, visualizations, scripts, and supporting documentation used throughout the project. Clear and consistent naming conventions were used to improve organization and readability. The repository also contains supporting files such as the requirements.txt file, which includes software used, a data dictionary describing the variables used in the project, and a metadata file in DCAT format.
 
-# Dataset 1: Alphabet Inc. Historical Stock Price Data
+Dataset 1: Alphabet Inc. Historical Stock Price Data
 The first dataset used in this project contains historical stock price data for Alphabet Inc. (Google). The dataset was obtained from the Nasdaq Historical Data website and downloaded in CSV format. It contains a daily time series of data and includes the company's stock market performance during the selected period for analysis. 
 The dataset is stored in the project repository as: HistoricalData_GOOGLE.csv
 
@@ -67,7 +67,7 @@ These metrics helped understand the company's stock behaviour over time and exam
 
 The Alphabet Inc. dataset represents structured financial market data with a streamlined structure. As the dataset was sourced from Nasdaq  which is a widely recognized and used financial market data provider, the dataset is considered reliable and appropriate for academic and analytical purposes, hence is appropriate for the project.
 
-# Dataset 2: US 10-Year Treasury Yield Data
+Dataset 2: US 10-Year Treasury Yield Data
 The second dataset used in this project contains historical United States 10-Year Treasury Yield data. The dataset was obtained from the Federal Reserve Economic Data (FRED) website and downloaded in CSV format. It contains daily observations of the US 10-Year Treasury Yield over the same time period as used for the Alphabet Inc. dataset. 
 The dataset is stored in the project repository as: HistoricalData_10YrTreasury.csv
 
@@ -79,14 +79,14 @@ The “Date” refers to the observation date associated with each Treasury Yiel
 
 The Treasury Yield dataset was integrated with the Alphabet Inc. stock dataset to analyze whether changes in long-term interest rates correlate with changes in stock returns, volatility, and overall performance. Introducing a macroeconomic dataset to the project expanded the analytical scope by introducing variables with different economic interpretations and characteristics. The Treasury Yield dataset contains numerical time series observations and is considered reliable because it is sourced from the FRED database, which is widely recognized and trusted for macroeconomic and financial information. 
 
-# Data Collection and Acquisition:
+Data Collection and Acquisition:
 Both datasets used in this project were obtained from publicly accessible online databases. The Alphabet Inc. stock price data was downloaded from the Nasdaq website and  the Treasury Yield dataset was downloaded from the FRED database. The datasets were stored in CSV format to simplify loading, preprocessing, and analysis using Python and Pandas. Python notebook (VS Code) cells and scripts were used to  import datasets into Pandas DataFrames with the pandas.read_csv() function.
 
 The datasets were verified after downloading to ensure successful loading into Pandas DataFrames and maintaining consistency in formatting and structure. Basic data integrity checks were performed by verifying successful file parsing, validating column formatting, ensuring consistency across date fields, and confirming that the datasets loaded correctly without corruption or formatting issues. The datasets are publicly accessible and are small in size, and the project repository directly includes the input CSV files, which are required to reproduce the analysis. This analysis relies on publicly accessible financial and macroeconomic observations. The datasets were used solely for academic purposes and were not modified in any way that could alter the original interpretation or meaning of the data. Proper attribution for both Nasdaq and FRED is included within the References section of the report.
 
 The datasets were selected because they provide a perspective into the financial markets. A key component of the project involved integrating financial market data with macroeconomic data. The two datasets were combined using the “Date” column after standardizing date formats across both datasets. The combined dataset enabled analysis of the relationship between technology stock performance and macroeconomic indicators. Combining these datasets strengthened the project’s analytical framework and improved the ability to generate meaningful financial insights from the analysis.
 
-# Storage and Organization:
+Storage and Organization:
 The project repository was organized to improve transparency, usability, and reproducibility. Easily understandable and self-explanatory file names are used in the repository to allow users to easily understand the purpose of each file and the project workflow. 
 The repository includes:
 1. Datasets
@@ -97,7 +97,20 @@ The repository includes:
 6. Software documentation
 
 
-**Data quality:** [500-1000 words] Summary of the quality assessment.
+**Data quality:** 
+
+A comprehensive data quality assessment was conducted on both datasets before beginning the analysis process. The primary goal of this assessment was to ensure that the datasets were complete, consistent, reliable, and suitable for integration and financial analysis. Since the project involved combining stock market data with macroeconomic data from two different sources, evaluating data quality was necessary to ensure accurate calculations and meaningful analytical results. Python and Pandas were used extensively during the data profiling and assessment process. 
+
+The quality assessment process began with reviewing the structure and formatting of both datasets. Functions such as .dtypes were used to inspect and verify data types, while .value_counts() were used to review the distribution and consistency of observations within important variables. The .isnull() function was used to identify missing values and evaluate dataset completeness prior to preprocessing and integration.
+
+One of the primary issues identified during the quality assessment process involved inconsistencies in the formatting of the Date column between the two datasets. Since the datasets were intended to be integrated using the “Date” column, ensuring consistency in formatting was especially important. We renamed the columns to improve readability and maintain consistency throughout the analysis workflow. Since the datasets were intended to be integrated using the “Date” column, ensuring consistency in formatting was especially important. Another important component of the assessment involved identifying missing values. Although missing values were present within the Treasury Yield dataset, the issue was relatively minor and did not significantly reduce the reliability of the data. The missing observations were identified using .isnull(), documented during the quality assessment stage, and later addressed during preprocessing and cleaning operations. 
+
+Both datasets were also evaluated for duplicate records and structural inconsistencies. After reviewing both datasets, no significant duplication issues were identified. Another important quality consideration involved evaluating consistency in observation frequency and alignment between the two datasets. Although both datasets contained daily observations, financial market data and Treasury Yield data may occasionally differ due to market holidays or reporting schedules. The datasets were therefore carefully assessed to ensure observations aligned correctly following integration.
+
+The Alphabet Inc. stock dataset contained variables such as Open, High, Low, and Volume which were not directly relevant to the final scope of the project. While these variables were not considered quality issues, these columns were dropped in order to simplify the workflow and improve the focus of the project. 
+
+The data quality assessment demonstrated that both datasets were reliable and suitable for financial analysis after preprocessing and cleaning procedures were completed. Identifying issues related to date formatting, missing values, numerical consistency, observation alignment, and structural formatting and addressing them improved the consistency and usability of the integrated dataset and ensured that the project findings were based on accurate and properly aligned financial and macroeconomic data.
+
 
 **Data cleaning:** 
 
