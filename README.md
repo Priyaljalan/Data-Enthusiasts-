@@ -123,7 +123,7 @@ The repository includes:
 
 A comprehensive data quality assessment was conducted on both datasets before beginning the analysis process. The primary goal of this assessment was to ensure that the datasets were complete, consistent, reliable, and suitable for integration and financial analysis. Since the project involved combining stock market data with macroeconomic data from two different sources, evaluating data quality was necessary to ensure accurate calculations and meaningful analytical results. Python and Pandas were used extensively during the data profiling and assessment process. 
 
-The quality assessment process began with reviewing the structure and formatting of both datasets. Functions such as .dtypes were used to inspect and verify data types, while .value_counts() were used to review the distribution and consistency of observations within important variables. The .isnull() function was used to identify missing values and evaluate dataset completeness prior to preprocessing and integration.
+The quality assessment process began with reviewing the structure and formatting of both datasets. Functions such as .dtypes were used to inspect and verify data types, while .value_counts() were used to review the distribution and consistency of observations within important variables. The .isnull() function was used to identify missing values and evaluate dataset completeness before preprocessing and integration.
 
 One of the primary issues identified during the quality assessment process involved inconsistencies in the formatting of the Date column between the two datasets. Since the datasets were intended to be integrated using the “Date” column, ensuring consistency in formatting was especially important. We renamed the columns to improve readability and maintain consistency throughout the analysis workflow. Since the datasets were intended to be integrated using the “Date” column, ensuring consistency in formatting was especially important. Another important component of the assessment involved identifying missing values. Although missing values were present within the Treasury Yield dataset, the issue was relatively minor and did not significantly reduce the reliability of the data. The missing observations were identified using .isnull(), documented during the quality assessment stage, and later addressed during preprocessing and cleaning operations. 
 
@@ -158,7 +158,15 @@ The main findings of the project were the correlation between Alphabet’s daily
 Finally, we created several visualizations to support the analysis and interpret the results more effectively. The first two are a line graph showing Alphabet's daily stock price returns, revealing periods of volatility and clear fluctuations in stock performance, and the US 10-Year Treasury Yield, which showed an upward trend in interest rates, although it was not consistent, as there were a few times when it fell. Then, the third was a scatter plot comparing Treasury yield changes with Alphabet stock returns, which showed a weak and widely dispersed relationship, confirming the low correlation between the two. Finally, we made a bar chart comparing the annual return, annual volatility, and risk premium to help summarize the relationship between the return and the investment risk.
 Overall, the findings suggest that while interest rates might have some kind of an influence on technology stock performance, the direct relationship between Treasury yield changes and Alphabet stock returns was relatively weak. The analysis points out the significance of merging financial market data with macroeconomic factors to better understand the risk associated with investments and stock market behaviour.
 
-**Future work:** [~500-1000 words] Brief discussion of any lessons learned and potential future work.
+**Future work:**
+
+This project can be used for more future work that can provide valuable experience in working with financial as well as macroeconomic datasets. This demonstrates the importance of data cleaning, integration, and analysis in understanding stock-market behaviour over time. The first and main lessons learned from this project were that stock performance can be influenced by various factors, and a single macroeconomic variable, such as the US 10-Year Treasury Yield, will not fully explain movements in technology stocks. The results indicate that other factors, including a company's earnings, investor mindset, market conditions, and global economic events, also have a major influence, even though the analysis revealed a weak negative link between Treasury yield movements and Alphabet Inc. stock returns.
+Understanding the relationship between macroeconomic variables and stock market performance was another crucial lesson learned from the study. We were able to better understand how changes in the economy may affect technology companies by combining Treasury Yield data with stock-price data. Additionally, the project improved our hands-on experience with financial research and visualization using Python libraries like Pandas, NumPy, and Matplotlib.
+An area for future improvement would be by expanding the number of datasets and using data sets from different industries, as well as adding more variables in the analysis. Additional macroeconomic indicators, such as inflation rates, Federal Funds Rates, GDP growth, or unemployment data, could also be added as they will provide us with a broader understanding of how economic conditions affect technology stocks, which will help explain stock-price movements more effectively than just using the Treasury yields.
+Moreover, future work can also include analysing additional technology companies such as Apple, Microsoft, and NVIDIA. Comparing multiple companies across the same time period would allow for stronger conclusions regarding how interest-rate changes impact the technology sector overall. We can also apply more advanced analytical techniques such as regression analysis, forecasting models, or machine-learning methods to better analyse the performance. These approaches will be helpful in providing deeper insights into the relationship between macroeconomic indicators and stock market returns. 
+Furthermore, we can also use NASDAQ's overall daily returns and compare macroeconomic indicators with it. This will not only provide insights into one industry but the stock market as a whole. We can also extend the dataset over a longer time period since it enables us to better understand how interest-rate sensitivity varies under various economic conditions by capturing multiple market cycles, such as recessions and recovery periods.
+With all factors taken into consideration, this project provided a strong basis for upcoming financial and economic research. It emphasized the importance of clean, reliable, and well-structured data and showed how merging stock-market data with macroeconomic indicators could be helpful in evaluating investment risk, volatility, and market behaviour.
+
 
 **Challenges:**
 
@@ -189,7 +197,7 @@ The repository includes:
 The primary workflow for the project is contained within the Jupyter notebook: final_project_stock_vs_treasury_analysis.ipynb
 The following datasets should be located within the project repository before running the notebook:
   1. Alphabet Inc.: HistoricalData_GOOGLE.csv
-  2. US 10 year Treasury Yield: HistoricalData_10YrTreasury.csv
+  2. US 10-year Treasury Yield: HistoricalData_10YrTreasury.csv
 
 The datasets were sourced from:
   1. Nasdaq Historical Data 
@@ -204,15 +212,15 @@ Users should install the required Python libraries listed in the requirements.tx
 The required packages can be installed using: pip install -r requirements.txt
 
 After installing the dependencies, users should open the Jupyter notebook and run all notebook cells sequentially. The notebook contains all Python code required for:
-  1. loading the datasets
-  2. assessing data quality
-  3. cleaning and preprocessing the data
-  4. integrating the datasets
-  5. calculating financial metrics
-  6. generating visualizations
+  1. Loading the datasets
+  2. Assessing data quality
+  3. Cleaning and preprocessing the data
+  4. Integrating the datasets
+  5. Calculating financial metrics
+  6. Generating visualizations
      
 The notebook includes several preprocessing and integration steps. Date columns from both datasets were standardized into a consistent datetime format before integration. Missing values within the Treasury Yield dataset were handled using forward fill methods to maintain continuity in the time-series analysis. The datasets were then merged using the “Date” column to create a single analytical dataset. 
-The notebook also calculates several financial metrics including:
+The notebook also calculates several financial metrics, including:
   1. Daily percentage returns
   2. Cumulative returns
   3. Standard deviation
@@ -223,11 +231,9 @@ The notebook also calculates several financial metrics including:
   8. Risk-to-reward ratio
      
 In addition, the notebook generates all visualizations used throughout the analysis, including stock trend graphs, Treasury Yield trend visualizations, and comparative plots examining the relationship between Treasury yields and Alphabet Inc. stock returns. 
-All scripts, workflow steps, datasets, and visualization outputs required to reproduce the project findings are included within the repository. Supporting documentation files such as the data dictionary, metadata file in DCAT format, README file, and Python library documentation are also included to improve transparency and reproducibility.
+All scripts, workflow steps, datasets, and visualization outputs required to reproduce the project findings are included within the repository. Supporting documentation files, such as the data dictionary, metadata file in DCAT format, README file, and Python library documentation, are also included to improve transparency and reproducibility.
 
 The repository additionally contains an MIT License file documenting permissions associated with the original analytical code, visualizations, and documentation created as part of the project.
-
-
 
 **References:**
 
