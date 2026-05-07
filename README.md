@@ -12,13 +12,16 @@ Title: Title of your project
 Research or Business Question(s):
 
 Which of the three stocks performed the best in the past 5 years, and which stocks outperformed the NASDAQ-100?
+
 How volatile are these stocks, and how does their volatility compare to their performance against the market benchmark?
+
 What is the risk-to-reward ratio for each stock?
 
 
 Here are our datasets:
 
 Alphabet (Google) - https://github.com/Priyaljalan/Data-Enthusiasts-/blob/main/HistoricalData_GOOGLE.csv
+
 US 10 Year Treasury Yield - https://github.com/Priyaljalan/Data-Enthusiasts-/blob/main/HistoricalData_10YrTreasury.csv
 
 **Data profile:** [max 2000 words] For each dataset used, describe its structure, content, and characteristics. Specify the location of the dataset files in your project repository. Discuss any ethical or legal constraints associated with the data, and explain how the datasets relate to your questions
