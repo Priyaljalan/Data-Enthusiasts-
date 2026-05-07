@@ -174,7 +174,60 @@ Challenge 3: Another challenge was redefining the analytical approach to the pro
 
 Resolution: For this, we updated our focus to include daily returns, cumulative returns, volatility for Alphabet Inc., correlation between Alphabet returns and Treasury yields, risk premium, and risk-to-reward ratio analysis.
 
-**Reproducing:** Sequence of steps required for someone else to reproduce your results.
+**Reproducing:** 
+To reproduce the results of this project, users should first clone or download the GitHub repository containing all datasets, notebooks, visualizations, metadata files, and supporting documentation containing the details of the analysis. The repository includes all input datasets necessary to reproduce the project findings. 
+
+The repository is organized using clear and descriptive file names to improve readability, usability, and reproducibility.
+The repository includes:
+  1. Datasets
+  2. Jupyter notebooks
+  3. Visualization outputs
+  4. Documentation files
+  5. Metadata files
+  6. Python library documentation
+     
+The primary workflow for the project is contained within the Jupyter notebook: final_project_stock_vs_treasury_analysis.ipynb
+The following datasets should be located within the project repository before running the notebook:
+  1. Alphabet Inc.: HistoricalData_GOOGLE.csv
+  2. US 10 year Treasury Yield: HistoricalData_10YrTreasury.csv
+
+The datasets were sourced from:
+  1. Nasdaq Historical Data 
+  2. Federal Reserve Economic Data (FRED)
+     
+The datasets were verified after download by loading both CSV files into Pandas DataFrames using pandas.read_csv(). Data integrity checks included reviewing dataset structure using .dtypes, identifying missing values using .isnull(), checking observation consistency using .value_counts(), and confirming that date columns and numerical variables loaded correctly without formatting or parsing issues.
+Users should install the required Python libraries listed in the requirements.txt file to reproduce the analysis,. The project primarily uses the following libraries: 
+  pandas
+  numpy
+  matplotlib
+
+The required packages can be installed using: pip install -r requirements.txt
+
+After installing the dependencies, users should open the Jupyter notebook and run all notebook cells sequentially. The notebook contains all Python code required for:
+  1. loading the datasets
+  2. assessing data quality
+  3. cleaning and preprocessing the data
+  4. integrating the datasets
+  5. calculating financial metrics
+  6. generating visualizations
+     
+The notebook includes several preprocessing and integration steps. Date columns from both datasets were standardized into a consistent datetime format before integration. Missing values within the Treasury Yield dataset were handled using forward fill methods to maintain continuity in the time-series analysis. The datasets were then merged using the “Date” column to create a single analytical dataset. 
+The notebook also calculates several financial metrics including:
+  1. Daily percentage returns
+  2. Cumulative returns
+  3. Standard deviation
+  4. Volatility
+  5. Correlation between stock returns and Treasury yields
+  6. Benchmark analysis
+  7. Risk premium
+  8. Risk-to-reward ratio
+     
+In addition, the notebook generates all visualizations used throughout the analysis, including stock trend graphs, Treasury Yield trend visualizations, and comparative plots examining the relationship between Treasury yields and Alphabet Inc. stock returns. 
+All scripts, workflow steps, datasets, and visualization outputs required to reproduce the project findings are included within the repository. Supporting documentation files such as the data dictionary, metadata file in DCAT format, README file, and Python library documentation are also included to improve transparency and reproducibility.
+
+The repository additionally contains an MIT License file documenting permissions associated with the original analytical code, visualizations, and documentation created as part of the project.
+
+
 
 **References:**
 
