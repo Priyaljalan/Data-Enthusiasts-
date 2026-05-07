@@ -11,12 +11,11 @@ Title: Title of your project
 
 Research or Business Question(s):
 
-Which of the three stocks performed the best in the past 5 years, and which stocks outperformed the NASDAQ-100?
+1. What is the correlation between Alphabet Inc. Stock returns and the US 10 Year Treasury Yield?
 
-How volatile are these stocks, and how does their volatility compare to their performance against the market benchmark?
+2. How do changes in interest rates impact Apple’s stock performance?
 
-What is the risk-to-reward ratio for each stock?
-
+3. What is the risk premium, and does the return justify the risk?
 
 Here are our datasets:
 
@@ -36,13 +35,13 @@ US 10 Year Treasury Yield - https://github.com/Priyaljalan/Data-Enthusiasts-/blo
 
 **Challenges:**
 
-Challenge 1: One of the main challenges we faced early in the project was finding meaningful data, which helped us integrate data with different elements and fields. After our initial decision of using Alphabet Inc., Apple Inc., and Microsoft Corporation along with the NASDAQ-100, we realized that all our datasets contained the same variables, which limited the opportunity for cross-variable integration.
+Challenge 1: One of the main challenges we faced early in the project was finding meaningful data, which helped us integrate data with different elements and fields. After our initial decision to use Alphabet Inc., Apple Inc., and Microsoft Corporation, along with the NASDAQ-100, we realized that all our datasets contained the same variables, which limited opportunities for cross-variable integration.
 
-Resolution: With the help of feedback, we revised the scope of the project and introduced a macroeconomic dataset, the US 10 Year Treasury Yield. This allowed us to integrate stock data with interest rates and improve the analytical scope of the project.
+Resolution: With feedback, we revised the project scope and introduced a macroeconomic dataset: the US 10 Year Treasury Yield. This allowed us to integrate stock data with interest rates and improve the analytical scope of the project.
 
 Challenge 2: Another challenge we faced was ensuring proper data cleaning and consistency across datasets. Both datasets were extracted on a daily basis for the date variable. While the frequency issue was avoided with consistent data extraction, we still needed to ensure consistent date formatting, no missing values, and aligned trading days for accurate merging.
 
-Resolution: The date columns for both datasets followed different formats, and this could have caused issues with dataset integration. In order to solve this, we standardized the date format for the Alphabet Inc. dataset. This helped us ensure that both datasets followed the same format for the date column. We then performed initial dataset analysis on both to check for missing values. We found that the US 10 Year Treasury Yield dataset contained some missing values. We applied forward fill to carry forward the most recent available value to fill in the missing values. This helped us ensure continuity in the date series while preserving as much data as possible for the analysis.
+Resolution: The date columns for both datasets followed different formats, and this could have caused issues with dataset integration. In order to solve this, we standardized the date format for the Alphabet Inc. dataset. This helped us ensure that both datasets followed the same format for the date column. We then performed initial dataset analysis on both to check for missing values. We found that the US 10 Year Treasury Yield dataset contained some missing values. We applied forward fill to carry forward the most recent available value to fill in the missing values. This helped us ensure continuity in the data series while preserving as much data as possible for the analysis.
 
 Challenge 3: Another challenge was redefining the analytical approach to the project. Moving to stock macroeconomic analysis required restructuring metrics and objectives.
 
@@ -53,4 +52,4 @@ Resolution: For this, we updated our focus to include daily returns, cumulative 
 **References:**
 
 1. Alphabet(Google) Stock Price dataset: https://www.nasdaq.com/market-activity/stocks/goog/historical?page=1&rows_per_page=10&timeline=y5
-2. US 10 Year Treasury Yield dataset:
+2. US 10 Year Treasury Yield dataset: 
