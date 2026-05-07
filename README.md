@@ -232,4 +232,4 @@ The repository additionally contains an MIT License file documenting permissions
 **References:**
 
 1. Alphabet(Google) Stock Price dataset: https://www.nasdaq.com/market-activity/stocks/goog/historical?page=1&rows_per_page=10&timeline=y5
-2. US 10 Year Treasury Yield dataset: 
+2. US 10 Year Treasury Yield dataset: https://fredaccount.stlouisfed.org/datalists/361753/download
