@@ -33,16 +33,16 @@ Alphabet (Google) - https://github.com/Priyaljalan/Data-Enthusiasts-/blob/main/H
 
 US 10 Year Treasury Yield - https://github.com/Priyaljalan/Data-Enthusiasts-/blob/main/HistoricalData_10YrTreasury.csv
 
-**Data profile:** [max 2000 words] For each dataset used, describe its structure, content, and characteristics. Specify the location of the dataset files in your project repository. Discuss any ethical or legal constraints associated with the data, and explain how the datasets relate to your questions
+**Data profile:**
 
-The project uses two publicly available financial datasets to analyze the relationship between Alphabet Inc.’s stock performance and the United States 10-Year Treasury Yield. The datasets were particularly selected to combine financial market data with macroeconomic indicators in order to better understand how fluctuations in long-term interest rates may influence stock returns, volatility, and risk-adjusted performance. Both datasets were downloaded in CSV format and stored within the project repository to ensure transparency and reproducibility and contain daily observations spanning from March 12, 2021, to March 12, 2026.
+The project uses two publicly available financial datasets to analyze the relationship between Alphabet Inc.’s stock performance and the United States 10-Year Treasury Yield. The datasets were particularly selected to combine financial market data with macroeconomic indicators in order to better understand how fluctuations in long-term interest rates may influence stock returns, volatility, and risk-adjusted performance. Both datasets were downloaded in CSV format and stored within the project repository to ensure transparency and reproducibility, and contain daily observations spanning from March 12, 2021, to March 12, 2026.
 
 Although both Nasdaq and the FRED database continuously update their information on a daily basis, the datasets used in this project were intentionally limited to observations available through March 12, 2026. This date was selected because it aligned with the beginning of the project analysis and data collection process. Restricting the datasets to a fixed timeframe helped maintain consistency throughout the project and ensured that all calculations, visualizations, and findings were based on a reproducible dataset. 
 
-The repository contains  datasets, analysis notebook, visualizations, scripts, and supporting documentation used throughout the project. Clear and consistent naming conventions were used to improve organization and readability. The repository also contains supporting files such as requirements.txt file which includes softwares used, a data dictionary describing the variables used in the project, and a metadata file in DCAT format.
+The repository contains  datasets, analysis of the notebook, visualizations, scripts, and supporting documentation used throughout the project. Clear and consistent naming conventions were used to improve organization and readability. The repository also contains supporting files such as the requirements.txt file, which includes software used, a data dictionary describing the variables used in the project, and a metadata file in DCAT format.
 
 # Dataset 1: Alphabet Inc. Historical Stock Price Data
-The first dataset used in this project contains historical stock price data for Alphabet Inc. (Google). The dataset was obtained from the Nasdaq Historical Data website and downloaded in CSV format. It contains a daily time series data and includes the company's stock market performance during the selected period for analysis. 
+The first dataset used in this project contains historical stock price data for Alphabet Inc. (Google). The dataset was obtained from the Nasdaq Historical Data website and downloaded in CSV format. It contains a daily time series of data and includes the company's stock market performance during the selected period for analysis. 
 The dataset is stored in the project repository as: HistoricalData_GOOGLE.csv
 
 The dataset contains the following variables:
@@ -52,18 +52,18 @@ The dataset contains the following variables:
   4. Volume
   5. High
   6. Low
-The "Date" column contains the trading day associated with each observation. The “Close Price” column represents the final trading price of Alphabet Inc. for the respective day. These two valriables served as the primary variables and are used for return calculations and volatility analysis throughout the project. The remaining variables provide additional information in relation to the daily trading activity. The “Open price” column represents the stock market opening price for the company for the respective date. The “Volume” column indicates the number of shares traded during the trading session. “High” and “Low” columns represent the maximum and minimum trading prices observed during the day.
+The "Date" column contains the trading day associated with each observation. The “Close Price” column represents the final trading price of Alphabet Inc. for the respective day. These two variables served as the primary variables and are used for return calculations and volatility analysis throughout the project. The remaining variables provide additional information in relation to the daily trading activity. The “Open price” column represents the stock market opening price for the company for the respective date. The “Volume” column indicates the number of shares traded during the trading session. “High” and “Low” columns represent the maximum and minimum trading prices observed during the day.
 
 The dataset contains daily numerical observations that are appropriate for financial analysis, statistical modeling, and visualization. Since the project mainly focused on understanding stock returns and their relationship with Treasury yields, the “Close Price” column became the analytical variable used for the analysis. 
 
-The dataset was used to calculate several financial metrics such as:
+The dataset was used to calculate several financial metrics, such as:
   1. Daily percentage returns
   2. Cumulative returns
   3. Standard deviation
   4. Volatility
   5. Risk premium
   6. Risk-to-reward ratios
-These metrics helped understand the company's stock behaviour over time and examine how the stock performed when compared to macroeconomic conditions as represented by the Treasury Yields. During preprocessing and cleaning, variables such as Volume, Open, High, and Low were removed from the dataset because they were not directly required for the final project scope. The project primarily focused on stock return behavior rather than detailed intraday trading activity. This simplification of the dataset helped improve analytical clarity and reduced unnecessary potential holdbacks within the workflow.
+These metrics helped understand the company's stock behaviour over time and examine how the stock performed when compared to macroeconomic conditions as represented by the Treasury Yields. During preprocessing and cleaning, variables such as Volume, Open, High, and Low were removed from the dataset because they were not directly required for the final project scope. The project primarily focused on stock return behavior rather than detailed intraday trading activity. This simplification of the dataset helped improve analytical clarity and reduce unnecessary potential holdbacks within the workflow.
 
 The Alphabet Inc. dataset represents structured financial market data with a streamlined structure. As the dataset was sourced from Nasdaq  which is a widely recognized and used financial market data provider, the dataset is considered reliable and appropriate for academic and analytical purposes, hence is appropriate for the project.
 
